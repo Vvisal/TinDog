@@ -1,0 +1,156 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title .py-5{
+  padding-bottom: 0rem !important;
+}
+
+.img-fluid {
+  width: 75%;
+}
+
+#title .btn-primary{
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+
+#title .btn-primary:hover{
+  background-color: #a6adb3;
+  border: 1px solid #a6adb3;
+}
+
+#title .btn-outline-secondary {
+  color: white;
+  border: 1px solid white;
+}
+
+#title .btn-outline-secondary:hover{
+  background-color: white;
+  color: black;
+}
+
+button .btn-primary:hover{
+  background-color: red;
+}
+
+#testimonial{
+  background-color: #ededed;
+}
+
+#testimonial{
+  padding: 50px 0px;
+}
+
+.container-blockquote{
+  padding: 40px 0px;
+}
+
+#testimonial .img-fluid{
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#testimonial p{
+  margin: 5px 0px 0px 0px;
+}
+
+.logos  img{
+  height: 30px;
+}
+
+.pricing-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.pricing{
+  margin: 0px 60px;
+}
+
+#pricing .card-header{
+  text-align: center;
+}
+
+#pricing{
+  padding-top: 50px;
+}
+
+#pricing .mastiff-bg{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+#pricing .mastiff-bg-btn{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+#pricing .mastiff-bg-btn:hover{
+  background-color: #758694;
+  color: white;
+  border: 1px solid white;
+}
+
+#pricing .chihuahua-btn{
+  color: black;
+  border: 1px solid black;
+}
+
+#pricing .chihuahua-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+#pricing .card-body{
+ text-align: center;
+}
+
+#footer .my-5{
+  margin-bottom: 0px !important;
+  padding-bottom: 50px;
+}
+
+#footer li:hover{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
